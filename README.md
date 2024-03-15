@@ -9,8 +9,7 @@ Once you have the zip file downloaded, unzip it. Then add the "bs.externs" folde
 Then, in the Max Package Manager, you should see "bs.externs" under the installed packages menu. 
 <img width="766" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/3fc558e4-9ce1-407f-acb5-4275c491a1a8">
 
-If your Max looks like this, you're good to go! The three objects included in the library in its current state are ```bs.upsample~```, ```bs.fft~```, and ```bs.leaky_integrator~```. We will go over these in the workshop! Here is a link to my slides for your future reference: 
-
+If your Max looks like this, you're good to go! The three objects included in the library in its current state are ```bs.upsample~```, ```bs.fft~```, and ```bs.leaky_integrator~```. We will go over these in the workshop! Here is a link to my slides for your future reference: https://docs.google.com/presentation/d/1lJjt-IbuzJHRGvhkO0voZgk0wQ6PEVszWW4YU3VxW-U/edit?usp=sharing
 
 
 Now, you need to install some software to make the EEG hardware work with your computer. First, install OpenBCI GUI:
