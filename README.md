@@ -5,7 +5,7 @@
 
 <img width="787" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/5c69ebe6-7072-49d6-859a-3c531ab11b86">
 
-## Steps to install the BioSignal External Package to your Max:
+## Steps to add the BioSignal External Package to your Max:
 Once you have the BioSignal external zip file downloaded, unzip it. Then add the "bs.externs" folder to your Max Packages folder:
 ``` Users / your_username / Documents / Max 8 / Packages ```
 
@@ -62,7 +62,7 @@ If your Max looks like this, you're good to go! The three objects included in th
 
 12.) Now you should have OpenBCI GUI fully set up and running. If you are wearing a headset, you will be able to see your brainwaves in the GUI. You should be sending LSL on your computer now as well, so we can open Max and check with one of the externals.
 
-13.) Open Max and create an object: ```bs.upsample~ 4``` <- (for Cyton, do ```bs.upsample~ 8```, Gangliong does 4)
+13.) Open Max and create an object: ```bs.upsample~ 4``` <- (for Cyton, do ```bs.upsample~ 8```, Ganglion does 4)
 
 14.) You should be able to get the EEG signal out of the outlets! Turn on DSP and attach a live.scope~ object to outlet 1. If it looks empty, attach a number~ object to see what values it is outputting. 
 
