@@ -1,8 +1,7 @@
 # moxsonic-24
 
 ## To download the BioSignal Max external library, please to go the "releases" page on the side of this page or at this link: https://github.com/combover01/moxsonic-24/releases/tag/v0.0.2
-## To make the EEG equipment work with your computer, install OpenBCI GUI:
-https://openbci.com/downloads
+## To make the EEG equipment work with your computer, install OpenBCI GUI: https://openbci.com/downloads
 
 <img width="787" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/5c69ebe6-7072-49d6-859a-3c531ab11b86">
 
