@@ -7,8 +7,8 @@ https://openbci.com/downloads
 
 <img width="787" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/5c69ebe6-7072-49d6-859a-3c531ab11b86">
 
-
-Once you have the zip file downloaded, unzip it. Then add the "bs.externs" folder to your Max Packages folder:
+## Steps to install the BioSignal External Package to your Max:
+Once you have the BioSignal external zip file downloaded, unzip it. Then add the "bs.externs" folder to your Max Packages folder:
 ``` Users / your_username / Documents / Max 8 / Packages ```
 
 Then, in the Max Package Manager, you should see "bs.externs" under the installed packages menu. 
