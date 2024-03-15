@@ -2,6 +2,11 @@
 For distributing files at my Moxsonic workshop.
 
 ## To download the BioSignal Max external library, please to go the "releases" page on the side of this page or at this link: https://github.com/combover01/moxsonic-24/releases/tag/v0.0.2
+## To make the EEG equipment work with your computer, install OpenBCI GUI:
+https://openbci.com/downloads
+
+<img width="787" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/5c69ebe6-7072-49d6-859a-3c531ab11b86">
+
 
 Once you have the zip file downloaded, unzip it. Then add the "bs.externs" folder to your Max Packages folder:
 ``` Users / your_username / Documents / Max 8 / Packages ```
@@ -10,12 +15,6 @@ Then, in the Max Package Manager, you should see "bs.externs" under the installe
 <img width="766" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/3fc558e4-9ce1-407f-acb5-4275c491a1a8">
 
 If your Max looks like this, you're good to go! The three objects included in the library in its current state are ```bs.upsample~```, ```bs.fft~```, and ```bs.leaky_integrator~```. We will go over these in the workshop! Here is a link to my slides for your future reference: https://docs.google.com/presentation/d/1lJjt-IbuzJHRGvhkO0voZgk0wQ6PEVszWW4YU3VxW-U/edit?usp=sharing
-
-
-Now, you need to install some software to make the EEG hardware work with your computer. First, install OpenBCI GUI:
-https://openbci.com/downloads
-
-<img width="787" alt="image" src="https://github.com/combover01/moxsonic-24/assets/56941032/5c69ebe6-7072-49d6-859a-3c531ab11b86">
 
 
 ## Steps to run OpenBCI_GUI to send LSL on your computer:
